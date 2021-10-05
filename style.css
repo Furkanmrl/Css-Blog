@@ -1,0 +1,42 @@
+body {
+    margin: 2rem;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+ }
+ 
+ div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    border: 10px solid rgb(120, 4, 130);
+    border-radius: 3px;
+    padding: 0.5rem;
+    color: rgb(156, 133, 153);
+    background-image: url("https://picsum.photos/id/1068/600/400");
+ }
+ h2{
+    color: black;
+    text-align: center;
+    font-style: italic;
+ }
+   
+
+ img {
+    width: 250px;
+    height: 135px;
+    border-radius: .3rem;
+    margin: 0 auto;
+ }
+ 
+ p {
+    width: 60%;
+    color: black;
+ }
+ 
+ p, h2 {
+    margin-left: 0.3rem;
+ }
